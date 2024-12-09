@@ -108,5 +108,4 @@ public:
 };
 
 
-
 #endif //GENERICRUBIKSCUBE_H
