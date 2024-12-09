@@ -2,8 +2,8 @@
 // Created by Sumit on 09-12-2024.
 //
 
-#ifndef GENERICRUBIKSCUBE_H
-#define GENERICRUBIKSCUBE_H
+#ifndef RUBIKSCUBE_H
+#define RUBIKSCUBE_H
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -102,10 +102,10 @@ public:
 
     uint8_t getCornerIndex(uint8_t ind) const;
 
-    uint8_t getCornerOrientation() const;
+    uint8_t getCornerOrientation(uint8_t ind) const;
 
 
 };
 
 
-#endif //GENERICRUBIKSCUBE_H
+#endif //RUBIKSCUBE_H
